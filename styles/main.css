@@ -1,0 +1,68 @@
+.title {
+	color: red;
+	font-size: 30px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.descr {
+	color: blue;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+.buy {
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	padding: 3px;
+	border: 1px solid red;
+	border-radius: 5px;
+	width: 90px;
+	margin: 0 auto;
+	
+	-webkit-transition: all 1s;
+       -moz-transition: all 1s;
+         -o-transition: all 1s;
+            transition: all 1s;
+}
+
+.buy:hover {
+	color: blue;
+}
+
+#slide {
+	width: 750px;
+	height: 470px;
+	overflow: hidden;
+	margin: 50px auto;
+	border: 1px solid #000;
+	position: relative;
+
+}
+
+#slide .layout {
+	position: absolute;
+	width: 750px;
+	height: 470px;
+	overflow: hidden;
+}
+
+#slide .after {
+	border-right: 2px solid #555;
+	cursor: move;
+	width: 240px;
+}
+
+.copyright {
+	margin: 30px 0 0;
+	text-align: center;
+}
+
+.copyright span {
+	color: red;
+}
